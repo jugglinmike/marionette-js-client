@@ -44,6 +44,7 @@ function host() {
   beforeEach(function(done) {
     var Client = require('../lib/marionette/client');
     var Driver = require('../lib/marionette/drivers/http-proxy');
+    var Driver = require('../lib/marionette/drivers/tcp-sync');
 
     marionetteHost.spawn(B2G_PATH, function(err, port, child) {
       if (err) throw err;
