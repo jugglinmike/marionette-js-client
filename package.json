@@ -10,7 +10,7 @@
     "json-wire-protocol": "~0.1.3",
     "sync-operation": "~0.0.2",
     "socket-retry-connect": "~0.0.1",
-    "Sockit-to-me": "git+https://github.com/nullaus/sockit-to-me.git#23116c5f4"
+    "Sockit-to-me": "git+https://github.com/mozilla-b2g/sockit-to-me.git#3aaac0004381b"
   },
 
   "scripts": {
