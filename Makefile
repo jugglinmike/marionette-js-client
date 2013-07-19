@@ -94,4 +94,4 @@ test-node: test/b2g
 	  ./test/marionette/drivers/abstract-test.js \
 	  ./test/marionette/drivers/tcp-test.js \
 	  ./test/marionette/drivers/httpd-polling-test.js \
-	  ./test/marionette/drivers/http-proxy-test.js -t 5s
+	  ./test/marionette/drivers/tcp-sync-test.js -t 5s
