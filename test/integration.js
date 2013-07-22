@@ -49,7 +49,7 @@ function host() {
       if (err) throw err;
       ctx.process = child;
 
-      var driver = new Driver({ marionettePort: port });
+      var driver = new Driver({ port: port });
       driver.connect(function(err) {
         if (err) throw err;
         ctx.client = new Client(driver, { sync: true });
